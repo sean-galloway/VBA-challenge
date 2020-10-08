@@ -10,7 +10,7 @@ After completing the analysis, the VBA code changes the "Yearly Change" cells ba
 * Values greater than or equal to zero are colored green
 •	Values less than zero are colored red
 ### Usage
-Open the master VBA macro file, [VBA-challenge.xlsm]](VBA-challenge.xlsm). Within this file, there are three worksheets:
+Open the master VBA macro file, [VBA-challenge.xlsm](VBA-challenge.xlsm). Within this file, there are three worksheets:
 * Lookup: this sheet holds the file names and the legal worksheets for the resources data. This data gets populated in the drop-down menus on the other worksheets.
 * SingleSheet: this sheet has two drop-down menus (these select the workbook and worksheet to analyze) and a "Run the Single Script" button. The VBA code will only analyze the data on a single sheet. SingleSheet is a code testing sheet.
 * MultiSheet: this sheet has one drop-down menu (to select the workbook to analyze) and a "Run the Multi Script" button. The VBA code analyzes all of the sheets in the workbook. The multi-script is a production-quality version of the VBA code.
