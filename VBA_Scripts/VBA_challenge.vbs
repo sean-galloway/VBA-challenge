@@ -137,9 +137,7 @@ Public Sub Open_Parse_Workbook_MultiSheet()
     wb.Save
 End Sub
 
-' This is the main routine that parse the Active Sheet and stores the results in a queue
-' The Parsing and Analysis are seperate routines so that data checking and cleaning
-' can happen in the parse phase.
+' This is the main routine that parse the Active Sheet and stores the results in a dictionary
 Private Sub Parse_The_Active_Sheet(ByVal wsActiveSheet As Worksheet, ByRef dctSummary As Scripting.Dictionary)
     Dim lngI As Long
     Dim rngLastCell As Range
